@@ -77,7 +77,6 @@ jobs:
           submodules: recursive
           fetch-depth: 0
       - name: Release
-        if: inputs.should-release == 'true'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         shell: bash
