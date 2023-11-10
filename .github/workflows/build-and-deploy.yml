@@ -71,6 +71,7 @@ jobs:
               echo The secret exists
           fi
           echo ${{ github.actor}}
+          echo ${{ secrets.GITHUB_TOKEN }}
           echo ${{ secrets.DEPLOYMENT_TOKEN }}
       - name: Setup Node.js
         uses: actions/setup-node@v4
