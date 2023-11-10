@@ -69,12 +69,15 @@ jobs:
               echo The secret does not exist
             else
               echo The secret exists
-            fi
+          fi
+          echo ${{ github.actor}}
+          echo ${{ secrets.DEPLOYMENT_TOKEN }}
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: "lts/*"
       - name: Release and container delivery
+    
         uses: SmartOperatingBlock/release-and-delivery-action@1.0.10
         with:
           should-release: true
