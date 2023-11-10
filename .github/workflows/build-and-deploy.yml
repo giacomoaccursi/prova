@@ -95,11 +95,7 @@ jobs:
           release-command: |
             npm install
             npx semantic-release
-          should-build-and-deliver-container: true
-          container-registry-name: 'ghcr.io'
-          container-registry-username: ${{ github.actor }}
-          container-registry-password: ${{ secrets.GITHUB_TOKEN }}
-          github-token: ${{ secrets.DEPLOYMENT_TOKEN }}
+          should-build-and-deliver-container: false
           
   documentation-deploy:
     needs:
