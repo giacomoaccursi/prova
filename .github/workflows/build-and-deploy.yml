@@ -65,41 +65,27 @@ jobs:
       )
     steps:
       - run: |
-          if [[ "${{secrets.GITHUB_TOKEN}}" == "" ]]; then
-              echo The secret does not exist
-            else
-              echo The secret exists
-          fi
-          if [[ "${{ github.actor }}" == "" ]]; then
-              echo The actor not exist
-            else
-              echo The actor exists
-          fi
-          if [[ "${{secrets.DEPLOYMENT_TOKEN }}" == "" ]]; then
-              echo The depl does not exist
-            else
-              echo The depl exists
-          fi
-          echo ${{ github.actor}}
-          echo ${{ secrets.GITHUB_TOKEN }}
-          echo ${{ secrets.DEPLOYMENT_TOKEN }}
+        
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: "lts/*"
-      - name: Release and container delivery
-    
-        uses: SmartOperatingBlock/release-and-delivery-action@1.0.10
+      - name: Checkout the repository
+        uses: actions/checkout@v4
         with:
-          should-release: true
-          release-command: |
-            npm install
-            npx semantic-release
-          should-build-and-deliver-container: false
-          container-registry-username: ${{ github.actor }}
-          container-registry-password: ${{ secrets.PERSONAL_TOKEN }}
-          github-token: ${{ secrets.DEPLOYMENT_TOKEN }}
-          
+          token: ${{ secrets.GITHUB_TOKEN }}
+          submodules: recursive
+          fetch-depth: 0
+      - name: Release
+        if: inputs.should-release == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
+        run: |
+          echo "-- Start release --"
+          npm install
+          npx semantic-release
+          echo "-- End release"
   documentation-deploy:
     needs:
       - release-and-delivery
