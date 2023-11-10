@@ -1,3 +1,12 @@
+## 1.0.0 (2023-11-10)
+
+
+### Features
+
+* reeeee ([0acd9af](https://github.com/giacomoaccursi/prova/commit/0acd9af35f54aad803deb8266d4284eb8d160da6))
+* release ([dcd0c49](https://github.com/giacomoaccursi/prova/commit/dcd0c49922d2b8308fd6f40f83a062ba055283ae))
+* Update build-and-deploy.yml ([2f676d0](https://github.com/giacomoaccursi/prova/commit/2f676d0928c81e16adc31350324d251730915c86))
+
 ## [0.1.11](https://github.com/SmartOperatingBlock/kotlin-template-project/compare/0.1.10...0.1.11) (2023-10-31)
 
 
