@@ -1,3 +1,15 @@
+## [1.1.0](https://github.com/giacomoaccursi/prova/compare/1.0.0...1.1.0) (2024-03-03)
+
+
+### Features
+
+* ciao ([7c077af](https://github.com/giacomoaccursi/prova/commit/7c077af31351266b3dc6e71907aa6694ba018c0f))
+
+
+### Dependency updates
+
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.85 ([6b364a8](https://github.com/giacomoaccursi/prova/commit/6b364a85bc90157060dfbb125c2dffdc0795b0f5))
+
 ## 1.0.0 (2023-11-10)
 
 
