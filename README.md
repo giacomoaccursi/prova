@@ -19,3 +19,4 @@ In order to use this template you need to do the following steps:
 - GitGuardian
 - Mergify
 - SonarCloud
+- 
