@@ -1,3 +1,26 @@
+## [1.1.1](https://github.com/giacomoaccursi/prova/compare/1.1.0...1.1.1) (2024-03-06)
+
+
+### Dependency updates
+
+* **core-deps:** update dependency org.jetbrains.kotlin.jvm to v1.9.22 ([a3462bd](https://github.com/giacomoaccursi/prova/commit/a3462bdaa510df59a66bba939540c02e26e3b7d0))
+* **deps:** update alpine docker tag to v3.19 ([3aeeeb6](https://github.com/giacomoaccursi/prova/commit/3aeeeb6c313f897a846bd3cb238c2b904b18e0a5))
+* **deps:** update dependency gradle to v8.6 ([22c43f0](https://github.com/giacomoaccursi/prova/commit/22c43f083fbc88e5dddec55192a60edc9d707f0e))
+* **deps:** update node.js to 20.11 ([5fa6e90](https://github.com/giacomoaccursi/prova/commit/5fa6e9066efab2fea3d7d91c097e3bf3f444a314))
+* **deps:** update plugin com.gradle.enterprise to v3.16 ([e1b4777](https://github.com/giacomoaccursi/prova/commit/e1b4777547c566270253177dfce1c09cd26acc94))
+* **deps:** update plugin kotlin-qa to v0.55.1 ([63467a5](https://github.com/giacomoaccursi/prova/commit/63467a55faf007b31bd40b6dbb061c7723d4204f))
+* **deps:** update plugin kotlin-qa to v0.57.1 ([776b004](https://github.com/giacomoaccursi/prova/commit/776b0044f9eb9f037d25b5f7aa97fa383ab2a0bd))
+* **deps:** update plugin kotlin-qa to v0.60.1 ([1da5fd3](https://github.com/giacomoaccursi/prova/commit/1da5fd31414abd65da2eea22983cc080674da9d3))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2 ([446c903](https://github.com/giacomoaccursi/prova/commit/446c903b2b7103bd6f6c2ec116649eae2bc95180))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-java action to v4 ([f9af225](https://github.com/giacomoaccursi/prova/commit/f9af225b198b3833d6e7a93b504830c8d0797dc8))
+* **deps:** update codecov/codecov-action action to v3.1.6 ([c85fff0](https://github.com/giacomoaccursi/prova/commit/c85fff05cd1288fff1012921d3d0c0930ca558e1))
+* **deps:** update codecov/codecov-action action to v4 ([ad3cc21](https://github.com/giacomoaccursi/prova/commit/ad3cc21142fbf4962353146439b89823d35259a4))
+* **deps:** update gradle/wrapper-validation-action action to v2 ([a4ff331](https://github.com/giacomoaccursi/prova/commit/a4ff3315f6ea3189729495c85d68b13c1efa6148))
+
 ## [1.1.0](https://github.com/giacomoaccursi/prova/compare/1.0.0...1.1.0) (2024-03-03)
 
 
