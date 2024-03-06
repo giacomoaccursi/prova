@@ -1,3 +1,15 @@
+## [1.1.2](https://github.com/giacomoaccursi/prova/compare/1.1.1...1.1.2) (2024-03-06)
+
+
+### Dependency updates
+
+* **deps:** update plugin com.gradle.enterprise to v3.16.2 ([fd7cd0b](https://github.com/giacomoaccursi/prova/commit/fd7cd0bf1f71af6aa3a45329b3d93fcf027652db))
+
+
+### Documentation
+
+* **deps:** update plugin dokka to v1.9.20 ([1bebb40](https://github.com/giacomoaccursi/prova/commit/1bebb40ea5710bb89a6da5eaf2623d8208cb5622))
+
 ## [1.1.1](https://github.com/giacomoaccursi/prova/compare/1.1.0...1.1.1) (2024-03-06)
 
 
