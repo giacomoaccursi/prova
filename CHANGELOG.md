@@ -1,3 +1,13 @@
+## [1.1.3](https://github.com/giacomoaccursi/prova/compare/1.1.2...1.1.3) (2024-03-11)
+
+
+### Dependency updates
+
+* **core-deps:** update dependency org.jetbrains.kotlin.jvm to v1.9.23 ([863ba23](https://github.com/giacomoaccursi/prova/commit/863ba236551ff0b6f49a56625a375af129cbf3fd))
+* **deps:** update plugin kotlin-qa to v0.60.3 ([5008c04](https://github.com/giacomoaccursi/prova/commit/5008c049cdc209e256fa3812ee84c2908ad5df62))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.0.2 ([83ae812](https://github.com/giacomoaccursi/prova/commit/83ae812c128706f6179154e5a37aa1633717bbea))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.0.3 ([28b8cca](https://github.com/giacomoaccursi/prova/commit/28b8cca9e978a7b255a4ec5d8d0cd56886686222))
+
 ## [1.1.2](https://github.com/giacomoaccursi/prova/compare/1.1.1...1.1.2) (2024-03-06)
 
 
