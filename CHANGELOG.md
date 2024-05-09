@@ -1,3 +1,33 @@
+## [1.1.4](https://github.com/giacomoaccursi/prova/compare/1.1.3...1.1.4) (2024-05-09)
+
+
+### Dependency updates
+
+* **core-deps:** update dependency org.jetbrains.kotlin.jvm to v1.9.24 ([68751df](https://github.com/giacomoaccursi/prova/commit/68751df62ae2f9d032d1be8d7eb306322e79745a))
+* **deps:** update dependency gradle to v8.7 ([3e1f1f7](https://github.com/giacomoaccursi/prova/commit/3e1f1f7ce1f0584aa71872b1a3f2e6f26440ab8b))
+* **deps:** update kotest to v5.8.1 ([fa3e26e](https://github.com/giacomoaccursi/prova/commit/fa3e26e7312c7509fd9dfd6c465af6e788910e55))
+* **deps:** update node.js to 20.12 ([64b5d75](https://github.com/giacomoaccursi/prova/commit/64b5d75a1c8d9a98e9990b19b919781d4b6485dc))
+* **deps:** update node.js to 20.13 ([f775fb0](https://github.com/giacomoaccursi/prova/commit/f775fb005f26c0c5e5b8c3c3f069e12e97b8a5c7))
+* **deps:** update plugin com.gradle.enterprise to v3.17 ([1df84e3](https://github.com/giacomoaccursi/prova/commit/1df84e393530b1fff7629ecaf5d29cc7a4b83d5a))
+* **deps:** update plugin com.gradle.enterprise to v3.17.1 ([b480c3a](https://github.com/giacomoaccursi/prova/commit/b480c3af48935e1959372a6bfbd14672194b92c6))
+* **deps:** update plugin com.gradle.enterprise to v3.17.2 ([4f3c37c](https://github.com/giacomoaccursi/prova/commit/4f3c37c14741cf948440023c70c7484334bd8698))
+* **deps:** update plugin kotlin-qa to v0.60.4 ([790754d](https://github.com/giacomoaccursi/prova/commit/790754d696ee6c33d7d8b117447b984a78100f37))
+* **deps:** update plugin kotlin-qa to v0.61.0 ([64ef811](https://github.com/giacomoaccursi/prova/commit/64ef8115127a48e74d46b6786aedfad6877d961e))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.0.4 ([705d306](https://github.com/giacomoaccursi/prova/commit/705d3060a381916f49a2edce88f5805970d37713))
+
+
+### Build and continuous integration
+
+* **deps:** update codecov/codecov-action action to v4.1.1 ([0507948](https://github.com/giacomoaccursi/prova/commit/0507948b70993d8bcb1123a345a2e3daa600935f))
+* **deps:** update codecov/codecov-action action to v4.2.0 ([4e0d79e](https://github.com/giacomoaccursi/prova/commit/4e0d79e9424aaa313b30b80d7bc9a8dfe1a69edd))
+* **deps:** update codecov/codecov-action action to v4.3.0 ([c7897bd](https://github.com/giacomoaccursi/prova/commit/c7897bdba0e992b00af295b173c08da60d78606a))
+* **deps:** update codecov/codecov-action action to v4.3.1 ([a9febbd](https://github.com/giacomoaccursi/prova/commit/a9febbdd083c397f076c2c9cb649061f5101bf78))
+* **deps:** update gradle/wrapper-validation-action action to v2.1.2 ([271d5cf](https://github.com/giacomoaccursi/prova/commit/271d5cfed79a134f0f1820232c31f083f871c3eb))
+* **deps:** update gradle/wrapper-validation-action action to v2.1.3 ([a0d461c](https://github.com/giacomoaccursi/prova/commit/a0d461cc78c086327d716e180a99239f7bc398c7))
+* **deps:** update gradle/wrapper-validation-action action to v3 ([017d174](https://github.com/giacomoaccursi/prova/commit/017d1746d66ee6016f4e08a00b3345b31dca7b64))
+* **deps:** update gradle/wrapper-validation-action action to v3.3.1 ([be0daa8](https://github.com/giacomoaccursi/prova/commit/be0daa89ada8e35e1ad186d5e16970dc114cbfe8))
+* **deps:** update gradle/wrapper-validation-action action to v3.3.2 ([e30b673](https://github.com/giacomoaccursi/prova/commit/e30b6736562bd1c8e9e1201909ce70bd1a4fe578))
+
 ## [1.1.3](https://github.com/giacomoaccursi/prova/compare/1.1.2...1.1.3) (2024-03-11)
 
 
