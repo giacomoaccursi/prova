@@ -1,3 +1,21 @@
+## [1.1.5](https://github.com/giacomoaccursi/prova/compare/1.1.4...1.1.5) (2024-05-21)
+
+
+### Dependency updates
+
+* **core-deps:** update dependency org.jetbrains.kotlin:kotlin-stdlib to v2 ([78bfe00](https://github.com/giacomoaccursi/prova/commit/78bfe00eae12b33d570bddbccf2a2cc246c1fa60))
+* **deps:** update kotest to v5.9.0 ([bf70197](https://github.com/giacomoaccursi/prova/commit/bf70197a430888f8df228979f038bc0b1dd196b9))
+* **deps:** update plugin com.gradle.enterprise to v3.17.3 ([8b60ec7](https://github.com/giacomoaccursi/prova/commit/8b60ec76aab1580cbd50429986fee420f4ef36b1))
+* **deps:** update plugin com.gradle.enterprise to v3.17.4 ([8373c0e](https://github.com/giacomoaccursi/prova/commit/8373c0ef6d3be6de29d01077acd3aa963e0e2c82))
+* **deps:** update plugin kotlin-qa to v0.62.0 ([29195cf](https://github.com/giacomoaccursi/prova/commit/29195cf5e6016076d56153b4b0edddd244c56941))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.0.5 ([72f40fd](https://github.com/giacomoaccursi/prova/commit/72f40fd1ff2cdcfd281d42a54950c2ab8c685770))
+
+
+### Build and continuous integration
+
+* **deps:** update codecov/codecov-action action to v4.4.0 ([d6cd11f](https://github.com/giacomoaccursi/prova/commit/d6cd11f0b2cb732d3be2fcf7c52136df145ce166))
+* **deps:** update codecov/codecov-action action to v4.4.1 ([6c53c3e](https://github.com/giacomoaccursi/prova/commit/6c53c3e8a111407edbc9d1873aac833182d29514))
+
 ## [1.1.4](https://github.com/giacomoaccursi/prova/compare/1.1.3...1.1.4) (2024-05-09)
 
 
